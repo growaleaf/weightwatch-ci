@@ -1,0 +1,1 @@
+{ "budgets": { "src/feature-a": 0.01, "src/feature-b": 1 } }
