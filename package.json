@@ -1,0 +1,33 @@
+{
+  "name": "weightwatch-ci",
+  "version": "1.0.0",
+  "description": "Fail CI before an unbudgeted dependency ships. Prices every imported package ONCE across your workspace, attributed to the first file that imports it, and exits non-zero if any budgeted path goes over its cap.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "weightwatch-ci": "./cli.js"
+  },
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growaleaf/weightwatch-ci.git"
+  },
+  "keywords": [
+    "bundle-size",
+    "import-cost",
+    "ci",
+    "continuous-integration",
+    "performance-budget",
+    "dependency-weight"
+  ],
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
